@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" /> 
+
+</head>
+<body>
+    <nav id="desktop-nav">
+    
+        <div class="logo">Hasnain</div>
+        <div>
+            <ul class="nav-links">
+
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Hasnain Ullah Khan</div>
+
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div >
+            
+
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section id="profile">
+
+        <div class="section__pic-container">
+            <img src="./assets/hk.png" alt="Hasnain Ullah Khan porfile picture" class="hk"/>
+
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Hasnain Ullah Khan</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/HI.pdf')">
+                Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                    </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/hasnain-ullah-khan/'"/>
+                <img src="./assets/github.png" class="icon" onclick="location.href='https://github.com/HasnainKhan24'"/>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/robo.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>2+ years <br />Frontend Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>B.Tech<br />Computer Science Engineering</p>
+              </div>
+              
+            </div>
+            <div class="text-container">
+              <p>I'm an enthusiastic and innovative web developer looking for a chance to prove myself. With a good foundation in web development and an understanding of Machine Learning, With a keen interest in artificial intelligence, data analysis, and predictive modelling, I enjoy exploring the vast potential of Machine Learning. I also have interest in robotics and in a Robotics workshop i've made a simple Line Following Robot.
+              </p>
+              <h3>Community Leader</h3>
+              <p>I've led my college's Tech club, where I've organised over 25 events, including an international and national seminar, a cybercrime awareness drive, and webinars by tech titans like IBM. </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+    <section id="experience">
+        <p class="section__text__p1">
+            Explore My
+        </p>
+        <h1 class="title"> Experience</h1>
+        <div class="experience-details-container">
+         <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experince-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>HTML</h3>
+                            <p>Experience</P></div>
+                    </article><article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                       <div> <h3>CSS</h3>
+                        <p>Experience</p></div>
+                    </article><article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>JAVASCRIPT</h3>
+                            <p>Intermediate</p></div>
+                    </article><article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>REACT</h3>
+                            <p>Basic</p></div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experince-sub-title">Machine Learning Libraries</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                       <div> <h3>Numpy</h3>
+                        <p>Experience</p></div>
+                    </article><article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>Pandas</h3>
+                            <p>Intermediate</p></div>
+                    </article>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>Matplotlib</h3>
+                            <p>Intermediate</p></div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>Seaborn</h3>
+                            <p>Intermediate</p></div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>Scikit-learn</h3>
+                            <p>Intermediate</p></div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmark.png "
+                        alt="Experience icon"
+                        class="icon"/>
+                        <div><h3>TensorFlow</h3>
+                            <p>Intermediate</p></div>
+                    </article>
+                    
+                   
+                    
+            </div>
+            </div>
+           
+        </div>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+
+    </section> 
+    
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pro1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/HasnainKhan24/Youtube'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://hasnainkhan24.github.io/Youtube/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pro2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pro3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/HasnainKhan24/webdev'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://hasnainkhan24.github.io/webdev/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:hasnainullahkhan05@gmail.com">Email</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/insta.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="https://instagram.com/hasnain_2409?igshid=ZDc4ODBmNjlmNQ== ">Instagram</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+    </div>
+    <img
+    src="./assets/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#desktop-nav'"
+  />
+
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright 2023 Hasnain Ullah Khan. All Rights Reserved.</p>
+      </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
